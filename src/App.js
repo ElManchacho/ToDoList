@@ -11,13 +11,13 @@ import {
 
 
 const darkModeContext = createContext({
-  theme: "Light",
+  theme: "Dark",
   toggleDarkMode: () => { },
 });
 
 
 function App() {
-  const [theme, toggleDarkMode] = useState("Light");
+  const [theme, toggleDarkMode] = useState("Dark");
   const value = useMemo(
     () => ({ theme, toggleDarkMode }),
     [theme]
