@@ -41,7 +41,7 @@ function App() {
 }
 
 function ThemeInput() {
-  const { theme, toggleDarkMode } = useContext(darkModeContext);
+  const { toggleDarkMode } = useContext(darkModeContext);
   const changeHandler = event => {
     if (event.target.value === "Light") {
       toggleDarkMode(event.target.value = "Dark");
