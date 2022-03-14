@@ -6,10 +6,11 @@ function Accueil() {
   return (
     <div className="App">
       <header className="App-accueil">
-      <Link className="App-link" to="/newItem"> NewItem</Link>
+      <Link className="Accueil-link" to="/newItem">NewItem</Link>
         <p>
           Accueil works !
         </p>
+        
       </header>
     </div>
   );

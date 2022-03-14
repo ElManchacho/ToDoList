@@ -8,7 +8,7 @@ function Header() {
       <header className="App-header">
         <div className="content">
             <p className='logo'>My To Do List</p>
-            <Link className="link" to="/accueil">Accueil</Link>
+            <Link className="Header-link" to="/accueil">Accueil</Link>
           </div>
       </header>
     </div>

@@ -8,7 +8,6 @@ function newItem() {
         <p>
           NewItem works !
         </p>
-        
       </header>
     </div>
   );
