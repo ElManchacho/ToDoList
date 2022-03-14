@@ -1,0 +1,6 @@
+.App-header {
+    width: 100%;
+    background-color:var(--headerBackGroundColor);
+    color: var(--headerColor);
+    font-family: 'Courier New', Courier, monospace;
+  }

@@ -1,15 +1,18 @@
 import './Footer.css';
 import React from "react";
+import Marquee from "react-fast-marquee";
 
 function Footer() {
   return (
     <div className="App">
-      <header className="App-footer">
+      <footer className="App-header">
         <p>
-          Footer works !
+        <Marquee gradientWidth={0}>
+          Information : Ce site n'utilise aucun cookie
+        </Marquee>
         </p>
         
-      </header>
+      </footer>
     </div>
   );
 }

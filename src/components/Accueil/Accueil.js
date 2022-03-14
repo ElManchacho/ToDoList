@@ -5,13 +5,13 @@ import {Link} from "react-router-dom";
 function Accueil() {
   return (
     <div className="App">
-      <header className="App-accueil">
+      <div className="App-accueil">
       <Link className="Accueil-link" to="/newItem">NewItem</Link>
         <p>
-          Accueil works !
+         Welcome to you To Do List !
         </p>
         
-      </header>
+      </div>
     </div>
   );
 }

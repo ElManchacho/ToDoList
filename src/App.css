@@ -4,7 +4,7 @@
   --toggleThemeButtonColor: white;
   --headerColor:white;
   --headerLinkColor:white;
-  --headerBackGroundColor:#1b1d22;
+  --headerBackGroundColor:#101114;
   --color:white;
   --backGroundColor:#1b1d22;
 }
@@ -13,19 +13,21 @@
   display: flex;
   font-size: calc(10px + 2vmin);
   width: 100%;
+  padding-top: 3%;
   background-color: var(--backGroundColor);
   color: var(--color);
   font-family: 'Courier New', Courier, monospace;
 }
 
-.App-header {
-  width: 100%;
-  background-color:var(--headerBackGroundColor);
-  color: var(--headerColor);
-  font-family: 'Courier New', Courier, monospace;
+.App-accueil {
+  height: 700px;
 }
 
-.logo{
+.App-newItem {
+  height: 700px;
+}
+
+.App-logo{
   text-align: center;
   display:inline-block;
   margin-left:10%;
@@ -36,7 +38,8 @@
 
 .Header-link {
   margin-left: 30%;
-  text-align: start;
+  font-size: larger;
+  text-decoration: none;
   color: var(--headerLinkColor);
 }
 
@@ -44,4 +47,10 @@
 .toggleThemeButton{
   background-color: var(--toggleThemeButtonBackgroundColor);
   color: var(--toggleThemeButtonColor);
+  text-align: end;
+}
+
+
+.themeDisplayer{
+  text-align: end;
 }

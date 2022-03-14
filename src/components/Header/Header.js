@@ -7,7 +7,7 @@ function Header() {
     <div>
       <header className="App-header">
         <div className="content">
-            <p className='logo'>My To Do List</p>
+            <p className='App-logo'>My To Do List</p>
             <Link className="Header-link" to="/accueil">Accueil</Link>
           </div>
       </header>

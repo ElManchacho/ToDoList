@@ -4,11 +4,11 @@ import React from "react";
 function newItem() {
   return (
     <div className="App">
-      <header className="App-newItem">
+      <div className="App-newItem">
         <p>
           NewItem works !
         </p>
-      </header>
+      </div>
     </div>
   );
 }
