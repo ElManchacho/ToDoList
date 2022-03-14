@@ -14,8 +14,8 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route exact path="/newItem" element={<NewItem className="newItem" />} />
-        <Route path="*" element={<Accueil className="accueil" />} />
+        <Route exact path="/newItem" element={<NewItem/>} />
+        <Route path="*" element={<Accueil/>} />
       </Routes>
       <Footer />
     </>
