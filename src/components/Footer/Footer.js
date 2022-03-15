@@ -6,12 +6,13 @@ function Footer() {
   return (
     <div className="App">
       <footer className="App-header">
-        <p>
+      <br/>
+      <br/>
         <Marquee gradientWidth={0}>
           Information : Ce site n'utilise aucun cookie
         </Marquee>
-        </p>
-        
+      <br/>
+      <br/>
       </footer>
     </div>
   );
